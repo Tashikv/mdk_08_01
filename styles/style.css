@@ -1,0 +1,81 @@
+.prew {
+width: 400px;
+height: 400px;
+}
+.new1 {
+    background: url(../img/новая\ общага.jpg);
+    background-size: cover;
+}
+.new2 {
+    background: url(../img/мы\ с\ тортом.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+}
+body{
+    background-color: rgb(192, 211, 170);
+}
+.glavnay {
+   background: url(../img/я-губа.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul {
+    background-color: rgb(122, 214, 171);
+}
+li {
+    padding:10px;
+}
+.content {
+    display: flex;
+}
+main {
+    width: 70%;
+}
+aside {
+    width: 30%;
+}
+.content1 {
+    display: flex;
+}
+.navik1 {
+    background: url(../img/ногти\ красные.jpg) ;
+    width: 500px;
+    height: 300px;
+    background-size:cover ;
+}
+.navik2 {
+    background: url(../img/ногти\ голубые.jpg);
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+.navik3 {
+    background: url(../img/я\ с\ цветочком.jpg);
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+.content2 {
+    display: flex;
+}
+p {
+    width: 33%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Персональный сайт Вожаковой Наташи</h1>
+        <nav>
+            <ul>
+        <li><a href="../index.html">главная</a></li>
+        <li><a href="news.html">новости</a></li>
+        <li><a href="personal.html">личный кабинет</a></li>
+        <li><a href="work/work.html">мои работы</a></li>
+        <li><a href="login.html">вход на сайт</a></li>
+        <li><a href="register.html">регистрация</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main>
+        <form method="post" action="../pages/login.html">
+            <p>Фамилия <input type="text" placeholder="Фамилия"></p>
+            <p>Имя <input type="text" placeholder="Имя"></p>
+            <p>Отчество <input type="text" placeholder="Отчество"></p>
+            <p>Дата рождения <input type="date" name="дд.мм.гг"></p>
+            <p>Почта <input type="text" placeholder="email" maxlength="100"></p>
+            <p>Пароль <input type="password" name="пароль" size="10" maxlength="10"></p>
+            <p>Повторите пароль <input type="password" name="пароль" size="10" maxlength="10"></p>
+            <p><input name="soglash" type="checkbox" value="soglash" checked>согласен с обработкой персональных данных</p>
+            <input type="submit"placeholder="reg" value="Зарегистрироваться">
+        </form>
+    </main>
+</body>
+</html>
